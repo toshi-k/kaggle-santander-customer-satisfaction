@@ -14,9 +14,6 @@ require 'cunn'
 
 -- input dimensions
 nfeats = train_data:size(2)
--- nfeats = 100
--- opt = {}
--- opt.va = 3
 print("nfeats: " .. tostring(nfeats))
 
 function newmodel()
